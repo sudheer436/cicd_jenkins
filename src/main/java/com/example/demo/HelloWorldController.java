@@ -9,7 +9,13 @@ public class HelloWorldController
     @RequestMapping("/")
     public String hello()
     {
-        return "Hello javaTpoint";
+        return "Hello ";
+    }
+
+    @RequestMapping("/first")
+    public String first()
+    {
+        return "Hello first endpoint";
     }
 
 }
