@@ -18,4 +18,10 @@ public class HelloWorldController
         return "Hello first endpoint";
     }
 
+    @RequestMapping("/second")
+    public String second()
+    {
+        return "Hello second endpoint";
+    }
+
 }
