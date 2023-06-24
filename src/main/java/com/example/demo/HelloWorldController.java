@@ -24,4 +24,10 @@ public class HelloWorldController
         return "Hello second endpoint";
     }
 
+    @RequestMapping("/third")
+    public String third()
+    {
+        return "Hello third endpoint";
+    }
+
 }
