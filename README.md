@@ -1,3 +1,3 @@
 # cicd
-explore cicd pipeline with aws
+explore cicd pipeline with SB + jenkins
 
