@@ -9,7 +9,7 @@ public class HelloWorldController
     @RequestMapping("/")
     public String hello()
     {
-        return "Hello ";
+        return "Hello SB + jenkins ";
     }
 
     @RequestMapping("/first")
@@ -17,17 +17,4 @@ public class HelloWorldController
     {
         return "Hello first endpoint";
     }
-
-    @RequestMapping("/second")
-    public String second()
-    {
-        return "Hello second endpoint";
-    }
-
-    @RequestMapping("/third")
-    public String third()
-    {
-        return "Hello third endpoint";
-    }
-
 }
